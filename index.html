@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width", initial-scale=1.0">
+   <title>Sign Up</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Sign Up</h1>
+      <form>
+           <div class="field name-field">
+             <div class="input-field">
+               <input type="name"  placeholder="Enter Your Name" class="fname">
+            </div>
+            <span class="error error-name">
+               <i class="bx bx-error-circle error-icon"></i>
+               <p class="error-text"> Name should be minimum 3 character in length and should not contain any numbers</p>
+            </span>
+           </div>
+
+           <div class="field email-field">
+           <div class="input-field">
+            <input type="email"  placeholder="Enter Your email" class="email">
+           </div>
+           <span class="error error-mail">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text"> Email should be in valid format </p>
+           </span>
+           </div>
+         
+           <div class="field pswrd-field">
+        <div class="input-field">
+         <input type="password"  placeholder="Enter Your Password" class="pswrd">
+      </div>
+      <span class="error error-pswrd">
+         <i class="bx bx-error-circle error-icon"></i>
+         <p class="error-text">Password should be minimum 6 character in length</p>
+      </span>
+      </div>
+   
+      <div class="field phno-field">
+     <div class="input-field">
+      <input type="number"  placeholder="Enter Your phno" class="phno">
+   </div>
+   <span class="error error-phno">
+      <i class="bx bx-error-circle error-icon"></i>
+      <p class="error-text">Number should be in valid form</p>
+   </span>
+    </div>    
+    <div class="input-field button">
+   <input type="submit" value="Sign up">
+    </div>
+      </form>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
